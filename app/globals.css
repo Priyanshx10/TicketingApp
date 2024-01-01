@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .icons {
+        @apply text-default-text text-xl;
+
+    }
+    .btn{
+       @apply hover:no-underline bg-blue-accent bg-blue-accent-hover tracking-wider
+    }
+}
